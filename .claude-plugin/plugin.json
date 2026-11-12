@@ -1,0 +1,19 @@
+{
+  "name": "cache-status",
+  "version": "0.6.0",
+  "description": "Shows in the prompt footer whether the conversation is still in the prompt cache and how long until the cache expires.",
+  "author": { "name": "Francesco Anzalone" },
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "cacheTtl": {
+      "type": "string",
+      "title": "Prompt cache lifetime",
+      "description": "How long the API keeps this session's cache entry after the last request.",
+      "options": [
+        "1h",
+        "5m"
+      ],
+      "default": "1h"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "ai-autocoder",
+  "owner": { "name": "Francesco Anzalone" },
+  "metadata": { "description": "Claude Code mods by Francesco Anzalone" },
+  "plugins": [
+    {
+      "name": "cache-status",
+      "source": "./",
+      "description": "Shows in the prompt footer whether the conversation is still in the prompt cache and how long until the cache expires."
+    }
+  ]
+}
